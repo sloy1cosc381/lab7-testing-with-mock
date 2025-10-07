@@ -1,5 +1,6 @@
 from unittest import mock
 
+from presidio_anonymizer.operators.operator import OperatorType
 import pytest
 
 from presidio_anonymizer.operators import Encrypt, AESCipher
@@ -53,4 +54,12 @@ def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_encryp
         InvalidParamError,
         match="Invalid input, key must be of length 128, 192 or 256 bits",
     ):
-        Encrypt().validate(params={"key": b'1111111111111111'})
+        Encrypt().validate(params={"key": b'11111111111111112222222222222222222222222'})
+
+def test_operator_name():
+    """Return operator name."""
+    assert Encrypt.operator_name(Encrypt) is "encrypt"
+
+def test_operator_type():
+    """Return operator type."""
+    assert Encrypt.operator_type(Encrypt) == OperatorType.Anonymize
