@@ -63,3 +63,19 @@ def test_operator_name():
 def test_operator_type():
     """Return operator type."""
     assert Encrypt.operator_type(Encrypt) == OperatorType.Anonymize
+
+@pytest.mark.parametrize(
+    # fmt: off
+    "bits",
+    [
+        ({"key": b'1111111111111111'}),#128
+        ({"key": b'111111111111111111111111'}),#192
+        ({"key": b'11111111111111111111111111111111'}),#256
+        ({"key": bytes(16)}),#128
+        ({"key": bytes(24)}),#192
+        ({"key": bytes(32)}),#256
+    ],
+    # fmt: on
+)
+def test_valid_keys(bits):
+    Encrypt.validate(Encrypt,bits)
