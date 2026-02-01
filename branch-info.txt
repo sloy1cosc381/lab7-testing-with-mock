@@ -1,14 +1,14 @@
 Branches in this repo (with details):
 
-- dependabot/docker/presidio-anonymizer/python-3.14-windowsservercore
-  SHA: 3360220ba245105a0815d70fecc70a11e3b39291
-  Commits: 9
+- dependabot/docker/presidio-anonymizer/python-3.15.0a5-windowsservercore
+  SHA: fa57c6b066771cf5c7856d0577978c78057a930d
+  Commits: 11
   Recent commits:
-    3360220 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-01T23:21:03Z | Bump python in /presidio-anonymizer
+    fa57c6b | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2026-02-01T23:18:16Z | Bump python in /presidio-anonymizer
+    d93f7a4 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-25T00:02:10Z | Auto-update branch-info.txt
+    91889b4 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-01T23:21:10Z | Auto-update branch-info.txt
     33e180b | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T22:13:25Z | Auto-update branch-info.txt
     4ca397a | Author: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Committer: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Date: 2025-10-07T22:11:37Z | Modified test conflict input to assert debug is called
-    005a6e5 | Author: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Committer: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Date: 2025-10-07T22:02:57Z | added parametrized testing for valid keys
-    5bd164d | Author: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Committer: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Date: 2025-10-07T18:25:39Z | Testing for operator_name, operator_type, and invalid length added
 - dependabot/github_actions/actions/checkout-6
   SHA: ae3f4a7874c2c8f5a2f6c38b53dbabc61b52356b
   Commits: 10
@@ -19,11 +19,11 @@ Branches in this repo (with details):
     4ca397a | Author: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Committer: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Date: 2025-10-07T22:11:37Z | Modified test conflict input to assert debug is called
     005a6e5 | Author: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Committer: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Date: 2025-10-07T22:02:57Z | added parametrized testing for valid keys
 - main
-  SHA: 91889b4b48c0f95f9b7a85e866537d58e5376ca4
-  Commits: 9
+  SHA: d93f7a44cb7cc1d6092960d0d903062619733f7a
+  Commits: 10
   Recent commits:
+    d93f7a4 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-25T00:02:10Z | Auto-update branch-info.txt
     91889b4 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-01T23:21:10Z | Auto-update branch-info.txt
     33e180b | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T22:13:25Z | Auto-update branch-info.txt
     4ca397a | Author: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Committer: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Date: 2025-10-07T22:11:37Z | Modified test conflict input to assert debug is called
     005a6e5 | Author: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Committer: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Date: 2025-10-07T22:02:57Z | added parametrized testing for valid keys
-    5bd164d | Author: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Committer: Steven Loy <231585531+sloy1cosc381@users.noreply.github.com> | Date: 2025-10-07T18:25:39Z | Testing for operator_name, operator_type, and invalid length added
